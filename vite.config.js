@@ -7,9 +7,9 @@ export default defineConfig({
   base:"/apple-Landing-page/",
   plugins: [react(), sentryVitePlugin({
     org: "na-b9j",
-    project: "javascript-react"
+    project: "iphone-landing-page"
   })],
   build: {
     sourcemap: true
   }
-})
+});
